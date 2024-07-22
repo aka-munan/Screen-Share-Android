@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Screen_Share.iml" filepath="$PROJECT_DIR$/.idea/modules/Screen_Share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Screen_Share.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Screen_Share.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Screen_Share.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Screen_Share.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Screen_Share.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Screen_Share.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Screen_Share.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Screen_Share.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

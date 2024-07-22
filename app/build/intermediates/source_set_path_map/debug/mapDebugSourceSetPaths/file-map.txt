@@ -1,0 +1,34 @@
+com.screen.share.app-viewpager2-1.0.0-0 C:\Users\llpl\.gradle\caches\transforms-4\00c3898c75d9b837a1674b46b161c2f8\transformed\viewpager2-1.0.0\res
+com.screen.share.app-fragment-1.5.4-1 C:\Users\llpl\.gradle\caches\transforms-4\0c571868379c988ec2e259a9b8214ec0\transformed\fragment-1.5.4\res
+com.screen.share.app-annotation-experimental-1.4.0-2 C:\Users\llpl\.gradle\caches\transforms-4\143e814bdc22d9258ca2e50cc2dc3208\transformed\annotation-experimental-1.4.0\res
+com.screen.share.app-core-runtime-2.2.0-3 C:\Users\llpl\.gradle\caches\transforms-4\25c4d209908e2eb9d1dea48f0fe4803d\transformed\core-runtime-2.2.0\res
+com.screen.share.app-lifecycle-process-2.6.2-4 C:\Users\llpl\.gradle\caches\transforms-4\2a8e85ecbb837af08c7d36375662f0ce\transformed\lifecycle-process-2.6.2\res
+com.screen.share.app-drawerlayout-1.1.1-5 C:\Users\llpl\.gradle\caches\transforms-4\383db5083dc5aaac23aebf3bfb434a9b\transformed\drawerlayout-1.1.1\res
+com.screen.share.app-lifecycle-livedata-2.6.2-6 C:\Users\llpl\.gradle\caches\transforms-4\469d947709ea21ed52b1437230eb557b\transformed\lifecycle-livedata-2.6.2\res
+com.screen.share.app-cardview-1.0.0-7 C:\Users\llpl\.gradle\caches\transforms-4\4ddca8a3fd9493cb7d814c6a23588f78\transformed\cardview-1.0.0\res
+com.screen.share.app-lifecycle-livedata-core-2.6.2-8 C:\Users\llpl\.gradle\caches\transforms-4\514550adebd5da3b348126e8b20dcf9d\transformed\lifecycle-livedata-core-2.6.2\res
+com.screen.share.app-emoji2-views-helper-1.3.0-9 C:\Users\llpl\.gradle\caches\transforms-4\5794a4e910f89314654469782d02c440\transformed\emoji2-views-helper-1.3.0\res
+com.screen.share.app-profileinstaller-1.3.1-10 C:\Users\llpl\.gradle\caches\transforms-4\5baba8db61d6a6dc1907aff6f81f8609\transformed\profileinstaller-1.3.1\res
+com.screen.share.app-startup-runtime-1.1.1-11 C:\Users\llpl\.gradle\caches\transforms-4\5da9fbaba29ba2a8d2591d16be624fd3\transformed\startup-runtime-1.1.1\res
+com.screen.share.app-constraintlayout-2.1.4-12 C:\Users\llpl\.gradle\caches\transforms-4\671adb58ae2455524bbeb0d6c510c717\transformed\constraintlayout-2.1.4\res
+com.screen.share.app-recyclerview-1.1.0-13 C:\Users\llpl\.gradle\caches\transforms-4\68f267d6f5db6ac5f057a6ac84f32a36\transformed\recyclerview-1.1.0\res
+com.screen.share.app-lifecycle-viewmodel-savedstate-2.6.2-14 C:\Users\llpl\.gradle\caches\transforms-4\725f508ee6e53d26c5befb144a4e02c7\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.screen.share.app-lifecycle-viewmodel-2.6.2-15 C:\Users\llpl\.gradle\caches\transforms-4\93a5b1f0357cbb25a7639fcf6b252bcc\transformed\lifecycle-viewmodel-2.6.2\res
+com.screen.share.app-core-1.13.0-16 C:\Users\llpl\.gradle\caches\transforms-4\976ea8c2c957f9c031395a3792f410be\transformed\core-1.13.0\res
+com.screen.share.app-emoji2-1.3.0-17 C:\Users\llpl\.gradle\caches\transforms-4\ce1cf6be5af71c6f357ee3b1a349433a\transformed\emoji2-1.3.0\res
+com.screen.share.app-lifecycle-runtime-2.6.2-18 C:\Users\llpl\.gradle\caches\transforms-4\d7f8c0267a3463d094bfc3cc39076668\transformed\lifecycle-runtime-2.6.2\res
+com.screen.share.app-coordinatorlayout-1.1.0-19 C:\Users\llpl\.gradle\caches\transforms-4\d80f050905a9277e4318f8c9a37fa9f2\transformed\coordinatorlayout-1.1.0\res
+com.screen.share.app-appcompat-1.7.0-20 C:\Users\llpl\.gradle\caches\transforms-4\db29bf84b672dd6318f57b0d5e729cdd\transformed\appcompat-1.7.0\res
+com.screen.share.app-core-ktx-1.13.0-21 C:\Users\llpl\.gradle\caches\transforms-4\dcf6548222b0c826033b29ce31cb544d\transformed\core-ktx-1.13.0\res
+com.screen.share.app-savedstate-1.2.1-22 C:\Users\llpl\.gradle\caches\transforms-4\e35b510ee934c46c89a3974037325990\transformed\savedstate-1.2.1\res
+com.screen.share.app-appcompat-resources-1.7.0-23 C:\Users\llpl\.gradle\caches\transforms-4\e9cf818ef56af37cbb763b4ea5d4aefa\transformed\appcompat-resources-1.7.0\res
+com.screen.share.app-material-1.12.0-24 C:\Users\llpl\.gradle\caches\transforms-4\efae3cb88a84982be7eeb7c34365173a\transformed\material-1.12.0\res
+com.screen.share.app-activity-1.9.0-25 C:\Users\llpl\.gradle\caches\transforms-4\f54a795b1d79de6bfb0fad93f62d62de\transformed\activity-1.9.0\res
+com.screen.share.app-transition-1.5.0-26 C:\Users\llpl\.gradle\caches\transforms-4\fa45fa78a22f3d85433aa69e50bc0123\transformed\transition-1.5.0\res
+com.screen.share.app-pngs-27 C:\Users\llpl\AndroidStudioProjects\Screen Share\app\build\generated\res\pngs\debug
+com.screen.share.app-resValues-28 C:\Users\llpl\AndroidStudioProjects\Screen Share\app\build\generated\res\resValues\debug
+com.screen.share.app-packageDebugResources-29 C:\Users\llpl\AndroidStudioProjects\Screen Share\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.screen.share.app-packageDebugResources-30 C:\Users\llpl\AndroidStudioProjects\Screen Share\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.screen.share.app-debug-31 C:\Users\llpl\AndroidStudioProjects\Screen Share\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.screen.share.app-debug-32 C:\Users\llpl\AndroidStudioProjects\Screen Share\app\src\debug\res
+com.screen.share.app-main-33 C:\Users\llpl\AndroidStudioProjects\Screen Share\app\src\main\res

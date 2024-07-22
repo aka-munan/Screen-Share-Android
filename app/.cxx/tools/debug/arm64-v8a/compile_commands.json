@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/llpl/AndroidStudioProjects/Parental2/app/.cxx/Debug/2f673b4w/arm64-v8a",
+  "command": "C:\\Users\\llpl\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --sysroot=C:/Users/llpl/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dwebp_compressor_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\webp-compressor.dir\\webp-compressor.cpp.o -c C:\\Users\\llpl\\AndroidStudioProjects\\Parental2\\app\\src\\main\\cpp\\webp-compressor.cpp",
+  "file": "C:\\Users\\llpl\\AndroidStudioProjects\\Parental2\\app\\src\\main\\cpp\\webp-compressor.cpp"
+}
+]
