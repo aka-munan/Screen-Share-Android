@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Server</title>
+</head>
+
+<body>
+    <img id="imageFrame" src="" alt="Remote Image Frame" height="90%">
+    <br>
+    <button id="videoPlayer">Play Video</button>
+    <button id="audioPlayer">Play Audio</button>
+</body>
+<script>
+
+    const imageFrame = document.getElementById('imageFrame');
+    const videoBtn = document.getElementById('videoPlayer');
+    const audioBtn = document.getElementById('audioPlayer');
+    let isAudioPlaying = false;
+    let isVideoPlaying = false;
+    var audioContext = null;
+    let audioBufferQueue = [];
+
+    audioBtn.addEventListener('click', () => {
+        isAudioPlaying = !isAudioPlaying;
+        audioBtn.innerHTML=isAudioPlaying?"Stop Audio":"Play Audio";
+        if (!audioContext) {
+            audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            console.log("sample rate: " + audioContext.sampleRate);
+
+        }
+
+    });
+    videoBtn.addEventListener('click', () => {
+        isVideoPlaying=!isVideoPlaying;
+        videoBtn.innerHTML=isVideoPlaying?"Stop Video":"Play video";
+
+    });
+    // Function to update the image frame
+    function updateImageFrame(imageUrl) {
+        imageFrame.setAttribute("src", imageUrl);
+
+    }
+
+    const ws = new WebSocket('ws://192.168.10.37:8080');
+    ws.binaryType = 'arraybuffer';
+    ws.onopen = () => {
+        console.log('WebSocket connection established');
+    };
+    ws.onmessage = (event) => {
+        if (!(isAudioPlaying || isVideoPlaying)) {
+            return;
+        }
+        const data = new Uint8Array(event.data);
+        const type = data[0]; // 0 for video, 1 for audio
+        const mediaData = data.slice(1, -1);
+        console.log("type :" + type);
+        if (type === 0) {
+            if (isVideoPlaying) {
+                console.log(mediaData.length / 1024 + "kb")
+                const blob = new Blob([mediaData], { type: 'image/jpeg' });
+                const blobUrl = URL.createObjectURL(blob);
+                updateImageFrame(blobUrl);
+            }
+        } else {
+            if (!isAudioPlaying) {
+                return;
+            }
+            if (!audioContext) {
+                return;
+            }
+            var pcmData = new Int16Array(data.buffer, 2);
+
+            audioBufferQueue.push(pcmData);
+            if (audioBufferQueue.length === 1) {
+                processAudioQueue();
+            }
+        }
+    };
+
+    function processAudioQueue() {
+        if (audioBufferQueue.length > 0) {
+            const buffer = audioBufferQueue.shift();
+            playAudioBuffer(buffer);
+            setTimeout(processAudioQueue, buffer.length / audioContext.sampleRate);
+        }
+    }
+    function playAudioBuffer(buffer) {
+        const audioBuffer = audioContext.createBuffer(1, buffer.length, audioContext.sampleRate);
+        const channelData = audioBuffer.getChannelData(0);
+
+        for (let i = 0; i < buffer.length; i++) {
+            channelData[i] = buffer[i] / 32768; // Convert 16-bit PCM to float [-1, 1]
+        }
+
+        const bufferSource = audioContext.createBufferSource();
+        bufferSource.buffer = audioBuffer;
+        bufferSource.connect(audioContext.destination);
+        bufferSource.start();
+    }
+</script>
+
+
+</html>
